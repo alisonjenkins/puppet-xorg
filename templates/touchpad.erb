@@ -1,0 +1,10 @@
+Section "InputClass"
+	Identifier "Touchpad"
+	Driver "libinput"
+
+  MatchIsTouchpad "on"
+
+  Option "Tapping" "<%= @tapping %>"
+  Option "NaturalScrolling" "<%= @naturalscrolling %>"
+  Option "DisableWhileTyping" "<%= @disablewhiletyping %>"
+EndSection
